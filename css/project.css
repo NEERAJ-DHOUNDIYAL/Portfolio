@@ -245,6 +245,126 @@
                     
                   }
                 }
+                @media (max-width: 701px) {
+                  .con-container {
+                    background-color: white;
+                    width: 100%;
+                    height: 80vh;
+                  }
+                  .pro-container {
+                    background-color: white;
+                    width: 100%;
+                    height: 70vh;
+                  }
+                  .project-box {
+                    width: 85%;
+                    height: 60%;
+                  margin-left: 2rem;
+                    
+                    
+                    display: block;
+                    
+                    
+                  }
+                  .mySlides{
+                    width: 40rem;
+                    height: 27rem;
+                  }
+                  .left {
+                    
+                    display: none;
+                     
+                  }
+                  .right {
+                    
+                    display: none;
+                     
+                  }
+                  .ani {
+                    display: flex;
+                    justify-content: center;
+                    gap: 8px;
+                    margin-top: 5rem;
+                  
+                    }
+                  
+                  
+                  .pro-text h2 {
+                    color: #333;
+                    
+            
+                    font-weight: bold;
+                    
+                    font-size:large;
+                  }
+                  .pro-text {
+                  margin-left: 40%;
+                    
+                  }
+                       
+
+                  }
+
+                @media (max-width: 578px) {
+                  .con-container {
+                    background-color: white;
+                    width: 100%;
+                    height: 80vh;
+                  }
+                  .pro-container {
+                    background-color: white;
+                    width: 100%;
+                    height: 80vh;
+                  }
+                  .project-box {
+                    width: 85%;
+                    height: 60%;
+                  margin-left: 2rem;
+                    
+                    
+                    display: block;
+                    
+                    
+                  }
+                  .mySlides{
+                    width: 32rem;
+                    height: 27rem;
+                  }
+                  .left {
+                    
+                    display: none;
+                     
+                  }
+                  .right {
+                    
+                    display: none;
+                     
+                  }
+                  .ani {
+                    display: flex;
+                    justify-content: center;
+                    gap: 8px;
+                    margin-top: 5rem;
+                  
+                    }
+                  
+                  
+                  .pro-text h2 {
+                    color: #333;
+                    
+            
+                    font-weight: bold;
+                    
+                    font-size:large;
+                  }
+                  .pro-text {
+                  margin-left: 40%;
+                    
+                  }
+                       
+
+                  }
+
                 @media (max-width: 541px) {
                   .con-container {
                     background-color: white;
@@ -304,7 +424,64 @@
                        
 
                   }
-
+                  @media (max-width: 484px) {
+                    .con-container {
+                      background-color: white;
+                      width: 100%;
+                      height: 80vh;
+                    }
+                    .pro-container {
+                      background-color: white;
+                      width: 100%;
+                      height: 75vh;
+                    }
+                    .project-box {
+                      width: 85%;
+                      height: 60%;
+                    margin-left: 2rem;
+                      
+                      
+                      display: block;
+                      
+                      
+                    }
+                    .mySlides{
+                      width: 26rem;
+                      height: 27rem;
+                    }
+                    .left {
+                      
+                      display: none;
+                       
+                    }
+                    .right {
+                      
+                      display: none;
+                       
+                    }
+                    .ani {
+                      display: flex;
+                      justify-content: center;
+                      gap: 8px;
+                      margin-top: 5rem;
+                    
+                      }
+                    
+                    
+                    .pro-text h2 {
+                      color: #333;
+                      
+              
+                      font-weight: bold;
+                      
+                      font-size:large;
+                    }
+                    .pro-text {
+                    margin-left: 40%;
+                      
+                    }
+                    }
+          
 
                   @media (max-width: 431px) {
                     .con-container {
@@ -540,5 +717,63 @@
                       }
                       
                       }
+                      @media (max-width: 333px) {
+                        .con-container {
+                          background-color: white;
+                          width: 100%;
+                          height: 80vh;
+                        }
+                        .pro-container {
+                          background-color: white;
+                          width: 100%;
+                          height: 95vh;
+                        }
+                        .project-box {
+                          width: 85%;
+                          height: 60%;
+                        margin-left: 0.4rem;
+                          
+                          
+                          display: block;
+                          
+                          
+                        }
+                        .mySlides{
+                          width: 22rem;
+                          height: 27rem;
+                        }
+                        .left {
+                          
+                          display: none;
+                           
+                        }
+                        .right {
+                          
+                          display: none;
+                           
+                        }
+                        .ani {
+                          display: flex;
+                          justify-content: center;
+                          gap: 8px;
+                          margin-top: 3rem;
+                        
+                          }
+                        
+                        
+                        .pro-text h2 {
+                          color: #333;
+                          
+                  
+                          font-weight: bold;
+                          
+                          font-size:large;
+                        }
+                        .pro-text {
+                        margin-left: 40%;
+                          
+                        }
+                        
+                        }
           
 
