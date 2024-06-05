@@ -18,8 +18,6 @@
   margin-left: 15%;
   margin-right: 15%;
   display: flex;
-
-  
   
 }
 
@@ -110,75 +108,437 @@
   height: 80vh;
 }
 
-@media (max-width: 1025px) {
-
-  .pro-text h2 {
-    color: #333;
-    padding-top: 10px;
-
-  
-    font-weight: bold;
-    margin-right: 22rem;
-    font-size:xx-large;
-  }
-  .pro-text {
-    margin-top: 3rem;
-    
-    margin-bottom: 3rem;
-    
-  }
-  }
-  
-    
-    @media (max-width: 820px) {
-
-      .pro-text h2 {
-        color: #333;
-        padding-top: 10px;
-        font-size: 2rem;
-        margin-right: 3rem;
-        font-weight: bold;
-        letter-spacing: -1px;
-      }
-      }
-      @media (max-width: 768px) {
-
-        .pro-text h2 {
-          color: #333;
-          padding-top: 1px;
-          font-size: 2rem;
-          margin-right: 11rem;
-          font-weight: bold;
-          letter-spacing: -1px;
-        }
-      }
-      @media (max-width: 580px) {
-
-        .pro-text h2 {
-          color: #333;
-          padding-top: 10px;
-          font-size: 2rem;
-          margin-right: 7rem;
-          font-weight: bold;
-          letter-spacing: -1px;
-        }
-        }
-        @media (max-width: 361px) {
-
-          .pro-text h2 {
-            color: #333;
-            padding-top: 10px;
         
+
+          @media (max-width: 1025px) {
+
+            .pro-text h2 {
+              color: #333;
+              padding-top: 10px;
+              font-size: 2rem;
+              margin-left: -6rem;
+              font-weight: bold;
+              letter-spacing: -1px;
+            }
+            .project-box{
+              margin-left: 1rem;
+              height: 35rem;
+            }
+            .mySlides{
+              width: 51.5rem;
+              height: 30rem;
+            }
+            .pro-container {
+              background-color: white;
+              width: 100%;
+              height: 60vh;
+            }
+            }
+            
+          @media (max-width: 913px) {
+
+            .pro-text h2 {
+              color: #333;
+              padding-top: 10px;
+              font-size: 2rem;
+              margin-left: -6rem;
+              font-weight: bold;
+              letter-spacing: -1px;
+            }
+            .project-box{
+              margin-left: 1rem;
+              height: 35rem;
+            }
+            .mySlides{
+              width: 45rem;
+              height: 30rem;
+            }
+            .pro-container {
+              background-color: white;
+              width: 100%;
+              height: 60vh;
+            }
+            }
+            
+              
+              @media (max-width: 821px) {
           
-            font-weight: bold;
-            margin-right: 22rem;
-            font-size:xx-large;
-          }
-          .pro-text {
-            margin-top: 3rem;
+                .pro-text h2 {
+                  color: #333;
+                  padding-top: 10px;
+                  font-size: 2rem;
+                  margin-right: 3rem;
+                  font-weight: bold;
+                  letter-spacing: -1px;
+                }
+                .project-box{
+                  margin-left: 1rem;
+                  height: 35rem;
+                }
+                .mySlides{
+                  width: 39rem;
+                  height: 30rem;
+                }
+                .pro-container {
+                  background-color: white;
+                  width: 100%;
+                  height: 75vh;
+                }
+                }
+
+                @media (max-width: 768px) {
+          
+                  .con-container {
+                    background-color: white;
+                    width: 100%;
+                    height: 80vh;
+                  }
+                  .pro-container {
+                    background-color: white;
+                    width: 100%;
+                    height: 95vh;
+                  }
+                  .project-box {
+                    width: 85%;
+                    height: 60%;
+                  margin-left: 1.5rem;
+                    
+                    
+                    display: block;
+                    
+                    
+                  }
+                  .mySlides{
+                    width: 44rem;
+                    height: 27rem;
+                  }
+
+                  .left {
+                    
+                    display: none;
+                     
+                  }
+                  .right {
+                    
+                    display: none;
+                     
+                  }
+                  .ani {
+                    display: flex;
+                    justify-content: center;
+                    gap: 8px;
+                    margin-top: 5rem;
+                  
+                    }
+                  
+                  
+                  .pro-text h2 {
+                    color: #333;
+                    
             
-            margin-bottom: 3rem;
+                    font-weight: bold;
+                    
+                    font-size:large;
+                  }
+                  .pro-text {
+                  margin-left: 50%;
+                    
+                  }
+                }
+                @media (max-width: 541px) {
+                  .con-container {
+                    background-color: white;
+                    width: 100%;
+                    height: 80vh;
+                  }
+                  .pro-container {
+                    background-color: white;
+                    width: 100%;
+                    height: 95vh;
+                  }
+                  .project-box {
+                    width: 85%;
+                    height: 60%;
+                  margin-left: 2rem;
+                    
+                    
+                    display: block;
+                    
+                    
+                  }
+                  .mySlides{
+                    width: 29rem;
+                    height: 27rem;
+                  }
+                  .left {
+                    
+                    display: none;
+                     
+                  }
+                  .right {
+                    
+                    display: none;
+                     
+                  }
+                  .ani {
+                    display: flex;
+                    justify-content: center;
+                    gap: 8px;
+                    margin-top: 5rem;
+                  
+                    }
+                  
+                  
+                  .pro-text h2 {
+                    color: #333;
+                    
             
-          }
-          }
+                    font-weight: bold;
+                    
+                    font-size:large;
+                  }
+                  .pro-text {
+                  margin-left: 40%;
+                    
+                  }
+                       
+
+                  }
+
+
+                  @media (max-width: 431px) {
+                    .con-container {
+                      background-color: white;
+                      width: 100%;
+                      height: 80vh;
+                    }
+                    .pro-container {
+                      background-color: white;
+                      width: 100%;
+                      height: 95vh;
+                    }
+                    .project-box {
+                      width: 85%;
+                      height: 60%;
+                    margin-left: 3rem;
+                      
+                      
+                      display: block;
+                      
+                      
+                    }
+                    .mySlides{
+                      width: 22rem;
+                      height: 27rem;
+                    }
+                    .left {
+                      
+                      display: none;
+                       
+                    }
+                    .right {
+                      
+                      display: none;
+                       
+                    }
+                    .ani {
+                      display: flex;
+                      justify-content: center;
+                      gap: 8px;
+                      margin-top: 5rem;
+                    
+                      }
+                    
+                    
+                    .pro-text h2 {
+                      color: #333;
+                      
+              
+                      font-weight: bold;
+                      
+                      font-size:large;
+                    }
+                    .pro-text {
+                    margin-left: 40%;
+                      
+                    }
+                    }
+          
+          
+                  @media (max-width: 415px) {
+                    
+                    .con-container {
+                      background-color: white;
+                      width: 100%;
+                      height: 80vh;
+                    }
+                    .pro-container {
+                      background-color: white;
+                      width: 100%;
+                      height: 95vh;
+                    }
+                    .project-box {
+                      width: 85%;
+                      height: 60%;
+                    margin-left: 2rem;
+                      
+                      
+                      display: block;
+                      
+                      
+                    }
+                    .mySlides{
+                      width: 22rem;
+                      height: 27rem;
+                    }
+                    .left {
+                      
+                      display: none;
+                       
+                    }
+                    .right {
+                      
+                      display: none;
+                       
+                    }
+                    .ani {
+                      display: flex;
+                      justify-content: center;
+                      gap: 8px;
+                      margin-top: 5rem;
+                    
+                      }
+                    
+                    
+                    .pro-text h2 {
+                      color: #333;
+                      
+              
+                      font-weight: bold;
+                      
+                      font-size:large;
+                    }
+                    .pro-text {
+                    margin-left: 40%;
+                      
+                    }
+                    }
+                   
+          
+                  @media (max-width: 391px) {
+                    .con-container {
+                      background-color: white;
+                      width: 100%;
+                      height: 80vh;
+                    }
+                    .pro-container {
+                      background-color: white;
+                      width: 100%;
+                      height: 95vh;
+                    }
+                    .project-box {
+                      width: 85%;
+                      height: 60%;
+                    margin-left: 1rem;
+                      
+                      
+                      display: block;
+                      
+                      
+                    }
+                    .mySlides{
+                      width: 22rem;
+                      height: 27rem;
+                    }
+                    .left {
+                      
+                      display: none;
+                       
+                    }
+                    .right {
+                      
+                      display: none;
+                       
+                    }
+                    .ani {
+                      display: flex;
+                      justify-content: center;
+                      gap: 8px;
+                      margin-top: 5rem;
+                    
+                      }
+                    
+                    
+                    .pro-text h2 {
+                      color: #333;
+                      
+              
+                      font-weight: bold;
+                      
+                      font-size:large;
+                    }
+                    .pro-text {
+                    margin-left: 40%;
+                      
+                    }
+                    }
+                    @media (max-width: 376px) {
+                      .con-container {
+                        background-color: white;
+                        width: 100%;
+                        height: 80vh;
+                      }
+                      .pro-container {
+                        background-color: white;
+                        width: 100%;
+                        height: 95vh;
+                      }
+                      .project-box {
+                        width: 85%;
+                        height: 60%;
+                      margin-left: .8rem;
+                        
+                        
+                        display: block;
+                        
+                        
+                      }
+                      .mySlides{
+                        width: 22rem;
+                        height: 27rem;
+                      }
+                      .left {
+                        
+                        display: none;
+                         
+                      }
+                      .right {
+                        
+                        display: none;
+                         
+                      }
+                      .ani {
+                        display: flex;
+                        justify-content: center;
+                        gap: 8px;
+                        margin-top: 3rem;
+                      
+                        }
+                      
+                      
+                      .pro-text h2 {
+                        color: #333;
+                        
+                
+                        font-weight: bold;
+                        
+                        font-size:large;
+                      }
+                      .pro-text {
+                      margin-left: 40%;
+                        
+                      }
+                      
+                      }
+          
 
