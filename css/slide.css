@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sec-skills {
+  background-color: whitesmoke;
+}
+.skill-title {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  margin-top: 3rem;
+}
+.skill-title p {
+  height: 1rem;
+  font-size: x-large;
+  color: #333;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 0.5rem;
+}
+
+
+@keyframes slides {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 40px 0px;
+    white-space: nowrap;
+    position: relative;
+    
+  }
+  
+  .logos:before, .logos:after {
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 250px;
+    height: 100%;
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0), rgb(255, 255, 255));
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0), rgb(255, 255, 255));
+  }
+  
+  .logo_items {
+    display: inline-block;
+    animation: 7s slides infinite linear;
+    
+  }
+  
+ 
+  
+  .logo_items img{
+    height: 100px;
+    margin-left: 60px;
+    border-radius: 5px;
+  }

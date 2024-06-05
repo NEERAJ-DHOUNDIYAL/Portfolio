@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sec-about {
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  margin-top: 2rem;
+}
+.about {
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  margin-left: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about .small-text {
+
+  color: #333;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+.static-txt{
+    margin-bottom:1rem ;
+}
+
+.auto-type{
+    color: rgb(212, 26, 26);
+}
+
+.about p {
+    height: 5rem;
+  color: #333;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 1rem;
+  font-weight: 900;
+  font-size: large;
+}
+.res-btn{
+  display: flex;
+  gap: 2rem;
+}
+.res-btn a{
+  
+    display: flex;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+ 
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: all .25s;
+  }
+  .res-btn a:hover{
+    letter-spacing: 8px;
+    color: red;
+    
+  }
+
+
+/* .res-btn .btn{
+transition-duration: 0.4s;
+width: 10rem;
+height: 2.5rem;
+background-color: red;
+color: white;
+border-radius: 1rem;
+font-size: medium;
+}
+
+.btn:hover {
+background-color:white;
+color: red
+
+} */
+
+.about-image {
+  display: flex;
+  flex-wrap: wrap;
+}
+#img-about {
+  height: 80%;
+  width: 80%;
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  .sec-about {
+    height: 30vh;
+    background-color:white;
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+  .about {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    margin-left: 5rem;
+    gap: 2rem;
+  }
+
+  .about .small-text {
+
+    color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    /* margin-top: 1rem; */
+  }
+ 
+  .about p {
+    
+    color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    /* margin-top: 3rem; */
+  }
+
+  .about-image {
+    height: 150%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  #img-about {
+    height: 100%;
+    width: 50%;
+    /* margin-left: 10rem; */
+    margin: auto;
+  }
+ 
+
+
+
+}
+
+@media (max-width: 1056px) {
+  .sec-about {
+    height: 30%;
+    background-color: white;
+    display: flex;
+  
+  }
+  .about{
+    margin-left: 2.5rem;
+    gap: 25px;
+    
+  }
+  .about .small-text {
+
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  
+    font-weight: 600;
+  }
+  .static-txt{
+      margin-bottom:1rem ;
+  }
+  
+  .auto-type{
+      color: rgb(212, 26, 26);
+  }
+  
+  .about p {
+  
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    
+    font-weight: 900;
+    font-size: medium;
+  }
+  .res-btn{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .res-btn a{
+    
+      display: flex;
+      font-size: 15px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #333;
+   
+      padding: 2px;
+      letter-spacing: 1px;
+      transition: all .25s;
+    }
+    .res-btn a:hover{
+      letter-spacing: 4px;
+      color: red;
+      
+    }  
+
+}
+
+@media (max-width: 1025px) {
+  .sec-about {
+    height: 30%;
+    background-color: white;
+    display: flex;
+  
+  }
+  .about{
+    margin-left: 2.5rem;
+    gap: 25px;
+    
+  }
+  .about .small-text {
+
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  
+    font-weight: 600;
+  }
+  .static-txt{
+      margin-bottom:1rem ;
+  }
+  
+  .auto-type{
+      color: rgb(212, 26, 26);
+  }
+  
+  .about p {
+  
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    
+    font-weight: 900;
+    font-size: medium;
+  }
+  .res-btn{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .res-btn a{
+    
+      display: flex;
+      font-size: 15px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #333;
+   
+      padding: 2px;
+      letter-spacing: 1px;
+      transition: all .25s;
+    }
+    .res-btn a:hover{
+      letter-spacing: 4px;
+      color: red;
+      
+    }  
+
+}
+
+
+@media (max-width: 991px ) {
+  #img-about {
+    height: 80%;
+    width: 100%;
+    margin-left: 0.1rem;
+    margin-top: 3rem;
+  }
+  .about .small-text {
+
+  color: #333;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+.about{
+  width: 80%;
+  height: 100%;
+  margin-left: 5rem
+}
+
+}
+@media (max-width: 431px) {
+  .sec-about {
+    height: 20%;
+    background-color: white;
+    display: flex;
+  
+  }
+  .about{
+    margin-left: 2.5rem;
+    
+  }
+  .about .small-text {
+
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  
+    font-weight: 600;
+  }
+  .static-txt{
+      margin-bottom:1rem ;
+  }
+  
+  .auto-type{
+      color: rgb(212, 26, 26);
+  }
+  
+  .about p {
+  
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    
+    font-weight: 900;
+    font-size: medium;
+  }
+  .res-btn{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .res-btn a{
+    
+      display: flex;
+      font-size: 15px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #333;
+   
+      padding: 2px;
+      letter-spacing: 1px;
+      transition: all .25s;
+    }
+    .res-btn a:hover{
+      letter-spacing: 4px;
+      color: red;
+      
+    }  
+
+}
+
+@media (max-width: 415px) {
+  .sec-about {
+    height: 20%;
+    background-color: white;
+    display: flex;
+  
+  }
+  .about{
+    margin-left: 2.5rem;
+    
+  }
+  .about .small-text {
+
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  
+    font-weight: 600;
+  }
+  .static-txt{
+      margin-bottom:1rem ;
+  }
+  
+  .auto-type{
+      color: rgb(212, 26, 26);
+  }
+  
+  .about p {
+  
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    
+    font-weight: 900;
+    font-size: medium;
+  }
+  .res-btn{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .res-btn a{
+    
+      display: flex;
+      font-size: 15px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #333;
+   
+      padding: 2px;
+      letter-spacing: 1px;
+      transition: all .25s;
+    }
+    .res-btn a:hover{
+      letter-spacing: 4px;
+      color: red;
+      
+    }  
+
+}
+@media (max-width: 391px) {
+  .sec-about {
+    height: 20%;
+    background-color: white;
+    display: flex;
+  
+  }
+  .about{
+    margin-left: 2.5rem;
+    
+  }
+  .about .small-text {
+
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  
+    font-weight: 600;
+  }
+  .static-txt{
+      margin-bottom:1rem ;
+  }
+  
+  .auto-type{
+      color: rgb(212, 26, 26);
+  }
+  
+  .about p {
+  
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    
+    font-weight: 900;
+    font-size: medium;
+  }
+  .res-btn{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .res-btn a{
+    
+      display: flex;
+      font-size: 15px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #333;
+   
+      padding: 2px;
+      letter-spacing: 1px;
+      transition: all .25s;
+    }
+    .res-btn a:hover{
+      letter-spacing: 4px;
+      color: red;
+      
+    }  
+
+}
+@media (max-width: 376px) {
+  .sec-about {
+    height: 20%;
+    background-color: white;
+    display: flex;
+  
+  }
+  .about{
+    margin-left: 2.5rem;
+    
+  }
+  .about .small-text {
+
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  
+    font-weight: 600;
+  }
+  .static-txt{
+      margin-bottom:1rem ;
+  }
+  
+  .auto-type{
+      color: rgb(212, 26, 26);
+  }
+  
+  .about p {
+  
+    color: #333;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    
+    font-weight: 900;
+    font-size: medium;
+  }
+  .res-btn{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .res-btn a{
+    
+      display: flex;
+      font-size: 15px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #333;
+   
+      padding: 2px;
+      letter-spacing: 1px;
+      transition: all .25s;
+    }
+    .res-btn a:hover{
+      letter-spacing: 4px;
+      color: red;
+      
+    }  
+
+}
