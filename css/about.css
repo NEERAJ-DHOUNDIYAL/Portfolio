@@ -92,51 +92,63 @@ color: red
   margin-top: 3rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1081px) {
   .sec-about {
-    height: 30vh;
-    background-color:white;
-    display: inline-block;
-    flex-wrap: wrap;
-  }
-  .about {
-    width: 80%;
-    height: 100%;
+    height: 30%;
     background-color: white;
-    margin-left: 5rem;
-    gap: 2rem;
+    display: flex;
+  
   }
-
+  .about{
+    margin-left: 2.5rem;
+    gap: 25px;
+    
+  }
   .about .small-text {
 
-    color: black;
+    color: #333;
     font-family: Georgia, "Times New Roman", Times, serif;
-    /* margin-top: 1rem; */
+  
+    font-weight: 600;
   }
- 
+  .static-txt{
+      margin-bottom:1rem ;
+  }
+  
+  .auto-type{
+      color: rgb(212, 26, 26);
+  }
+  
   .about p {
-    
-    color: black;
+  
+    color: #333;
     font-family: Georgia, "Times New Roman", Times, serif;
-    /* margin-top: 3rem; */
+    
+    font-weight: 900;
+    font-size: medium;
   }
-
-  .about-image {
-    height: 150%;
-    width: 100%;
+  .res-btn{
     display: flex;
-    flex-wrap: wrap;
-    background-color: white;
+    gap: 2rem;
+    margin-top: 1rem;
   }
-  #img-about {
-    height: 100%;
-    width: 50%;
-    /* margin-left: 10rem; */
-    margin: auto;
-  }
- 
-
-
+  .res-btn a{
+    
+      display: flex;
+      font-size: 15px;
+      font-family: sans-serif;
+      text-decoration: none;
+      color: #333;
+   
+      padding: 2px;
+      letter-spacing: 1px;
+      transition: all .25s;
+    }
+    .res-btn a:hover{
+      letter-spacing: 4px;
+      color: red;
+      
+    }  
 
 }
 
@@ -282,6 +294,55 @@ color: red
 }
 
 }
+
+@media (max-width: 768px) {
+  .sec-about {
+    height: 30vh;
+    background-color:white;
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+  .about {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    margin-left: 5rem;
+    gap: 2rem;
+  }
+
+  .about .small-text {
+
+    color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    /* margin-top: 1rem; */
+  }
+ 
+  .about p {
+    
+    color: black;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    /* margin-top: 3rem; */
+  }
+
+  .about-image {
+    height: 150%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  #img-about {
+    height: 100%;
+    width: 50%;
+    /* margin-left: 10rem; */
+    margin: auto;
+  }
+ 
+
+
+
+}
+
 @media (max-width: 431px) {
   .sec-about {
     height: 20%;

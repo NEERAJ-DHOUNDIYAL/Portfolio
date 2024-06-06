@@ -113,6 +113,29 @@ a{
   padding-top: 1rem;
 }
 
+
+@media (max-width: 1081px) {
+  .container .text1{
+    color: white;
+    margin-left: 25rem;
+    padding-top: 1.5rem;
+  }
+  .container .text2{
+    color: white;
+    margin-left: 28rem;
+    padding-top: 1rem;
+  }
+  .navbrand{
+    font-size: 1rem;
+    margin-left: 2rem;
+  
+  }
+  .navbar{
+    height: 8vh;
+  
+
+
+}
 @media (max-width: 1025px) {
   .container .text1{
     color: white;
